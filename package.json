@@ -1,0 +1,11 @@
+{
+  "name": "mainPackage",
+  "main": "app.js",
+  "scripts": {
+  	"preinstall": "rm -rf node_modules",
+    "postinstall": "npm --prefix node_modules link a/ b/"
+  },
+  "dependencies": {
+    "request": "^2.40.0"
+  }
+}

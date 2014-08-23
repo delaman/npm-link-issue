@@ -1,0 +1,3 @@
+
+require('aPackage');
+require('bPackage');
