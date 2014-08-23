@@ -1,7 +1,9 @@
 
 
 1) git clone
+
 2) npm install
+
 3) node app.js
 
 
@@ -10,16 +12,16 @@ The above works with npm <=1.4.14
 The correct output using npm 1.4.14 is as follows:
 
 npm: 1.4.14
-``
+```
 $ node app.js
 a
 b
 $
-``
+```
 
 
 npm: 1.4.21
-``
+```
 $ node app.js
 
 module.js:340
@@ -37,10 +39,10 @@ Error: Cannot find module 'aPackage'
     at Function.Module._load (module.js:312:12)
     at Function.Module.runMain (module.js:497:10)
 $ 
-``
+```
 
 npm: 1.4.23
-``
+```
 $ node app.js
 
 module.js:340
@@ -58,4 +60,4 @@ Error: Cannot find module 'aPackage'
     at Function.Module._load (module.js:312:12)
     at Function.Module.runMain (module.js:497:10)
 $ 
-``
+```
